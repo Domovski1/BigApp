@@ -23,6 +23,7 @@ namespace BigApp
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new LoginPage());
         }
     }
 }
