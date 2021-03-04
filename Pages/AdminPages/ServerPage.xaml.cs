@@ -1,5 +1,4 @@
-﻿using BigApp.Pages;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,17 +13,26 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace BigApp
+namespace BigApp.Pages.AdminPages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для ServerPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ServerPage : Page
     {
-        public MainWindow()
+        public ServerPage()
         {
             InitializeComponent();
-            MainFrame.Navigate(new LoginPage());
+        }
+
+        private void Start_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Close_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
